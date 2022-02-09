@@ -1,0 +1,13 @@
+[
+	{ "country": "Kenya", "camp": "Kakuma", "year": "2018", "lessons": 20 },
+	{ "country": "Kenya", "camp": "Omaka", "year": "2018", "lessons": 10 },
+	{ "country": "Kenya", "camp": "Kakuma", "year": "2019", "lessons": 25 },
+	{ "country": "Kenya", "camp": "Omaka", "year": "2019", "lessons": 15 },
+	{ "country": "Kenya", "camp": "Omaka", "year": "2020", "lessons": 35 },
+	{ "country": "Tanzania", "camp": "Omaya", "year": "2018", "lessons": 30 },
+	{ "country": "Tanzania", "camp": "Sebuna", "year": "2018", "lessons": 20 },
+	{ "country": "Tanzania", "camp": "Omaya", "year": "2019", "lessons": 40 },
+	{ "country": "Tanzania", "camp": "Sebuna", "year": "2019", "lessons": 25 },
+	{ "country": "Tanzania", "camp": "Omaya", "year": "2020", "lessons": 45 },
+	{ "country": "Tanzania", "camp": "Sebuna", "year": "2020", "lessons": 15 }
+]
