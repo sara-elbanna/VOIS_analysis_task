@@ -1,4 +1,4 @@
-# Front-end interview task
+# Analysis Front-End Challenge
 
 The challenge consists of 3 small tasks.
 You could be done separately and it's not necessary to implement all of them. You can start by forking the repository and updating the necessary files.
