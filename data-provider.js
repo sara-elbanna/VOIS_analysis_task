@@ -11,6 +11,6 @@ export function getCamps(country) {
 }
 
 //TODO: Fill with total lessons taken from the data object filtered by country
-export function getLessonsByYear(country) {
+export function getLessonsByMonth(country) {
 	// Add you logic here
 }
