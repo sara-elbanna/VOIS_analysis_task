@@ -1,38 +1,28 @@
-# Analysis Front-End Challenge
+# Analysis Chart Front-End Challenge
 
-The challenge consists of 3 small tasks.
-You could be done separately and it's not necessary to implement all of them. You can start by forking the repository and updating the necessary files.
-
-## Data filtering
-
-Please replace the dummy values in the [data-provider.js](./data-provider.js) file with real values taken from the [data](./data.json) json file included in the project.
-
-There are 3 functions:
-
-- getCountries() - should return an array of unique countries
-- getCamps(country) - should return an array of camps located in the given country
-- getLessonsByMonth(country) - should return two arrays, one that contains unique months and the second
-  with the total number of lessons in the country by the month
-
-## Data binding
-
-Please connect the data to the UI components by React components
-
-- The "Countries" combo should be populated with the results from the `getCountries()` function.
-- The "Camps" combo should be populated with the results from the `getCamps(country)` function.
-- The chart should be populated with the results from the `getLessonsByMonth(country)` function.
-
-## Data filtering
-
-Build the chart to be similar
+The challenge is to implement an analytics dashboard like this one with the next description:
 
 ![design](./chart-design.jpg)
 
+## Description
+
+- Loading screen is expected while fetching the "data.json" from server (can be github).
+- The 3 drop-down lists at the top is to filter the data and the school one should have the option to "show all".
+- The chart renders the data of the selected schools as shown.
+- On the right the total no. of lessons is displayed for the selected Camp, then after it a list of the schools with a summary is shown.
+- This schools list should be like toggles to show/hide the line chart of a certain school.
+- Upon clicking on a point in the chart, the app should navtigate to another page with the most simple layout to show all details of that point like country, camp, school, month, no. of lessons.
+- On getting back from the details page the last filtering state should be preserved.
+
+
 ## Requirements
 
-- Use React, Next.js, TypeScript, and Chart.js
-- Write unit-testing for data binding functions
+- Use React, TypeScript and Chart.js (Next.js if needed)
+- Good unit-test cases is required to secure the code (bonus: E2E testing)
 - Store the data by state-management
 - Use React hooks
-- Consider the project to be Scalable
-- Navigate to another page to show the details of a specific record by on clicking on dot in the chart
+- Consider the project to be Scalable and try to follow the best pratices for the project and code like project structure, linting, components structure, layering, modularity
+- Bonus: Implemant a toggle to switch on/off the night mode
+- Bonus: Consider supporting may languages in the app
+
+Note: If a requirement is not stated, please assume based on your analysis and have a justification as it is a part of the assessment
