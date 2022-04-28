@@ -22,7 +22,7 @@ The challenge is to implement an analytics dashboard like this one with the desc
 - Favor the use of React Functional Components over Class-based components.
 - Set up a project structure that promotes scalability.
   - Source code is kept separate from compiled code.
-  - All tests should be contained in their own folder.
+  - **All tests should be contained in their own folder.**
   - Separate modules are created for any processing.
 - Set up an npm project
   - `Package.json` should contain both devDependencies, and dependencies.
