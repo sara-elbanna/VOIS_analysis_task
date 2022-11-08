@@ -1,0 +1,49 @@
+.homePage {
+  background-color: #ebe7ec;
+  padding: 20px;
+}
+.home-title,
+.home-subtitle {
+  color: #8f769a;
+  font-weight: 300;
+}
+.filters {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.filter {
+  display: flex;
+  align-items: baseline;
+  width: 30%;
+}
+.filter p {
+  width: 25%;
+}
+.filter .ant-select {
+  width: 60% !important;
+}
+.analysis {
+  background-color: #fff;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.analysisChart {
+  width: 70%;
+  padding: 30px;
+}
+.analysis-text {
+  width: 30%;
+  padding: 20px;
+}
+.analysis-text .camp-lessons {
+  margin-bottom: 20px;
+  margin-left: -10px;
+}
+.analysis-text .wrapper {
+  display: flex;
+  align-items: baseline;
+}
