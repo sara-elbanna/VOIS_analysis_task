@@ -6,7 +6,6 @@ import { persistStore, persistReducer } from 'redux-persist'
 import storage from 'redux-persist/lib/storage' // defaults to localStorage for web
 import { GlobalAction, GlobalState } from './types'
 
-// export function createGlobalStore (): Store<GlobalState, GlobalAction> {
 export function createGlobalStore (): {
   store: Store<GlobalState, GlobalAction>
   persistor: any

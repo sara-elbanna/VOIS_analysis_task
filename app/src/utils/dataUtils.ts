@@ -20,7 +20,6 @@ export const MONTHS: string[] = [
   'Dec'
 ]
 
-// export class DataUtils {
 export const getChartDataSets = (
   filteredData: DataItemInterface[]
 ): ChartDataSetItem[] => {
@@ -100,29 +99,3 @@ export const getCampTotalNumberOfLessons = (
   dataSet.forEach((item) => (lessonsCount += item.lessonsCount))
   return lessonsCount
 }
-// }
-
-// selected country, school, camp
-// filtered data
-
-// initially
-// 1- getCountriesList(data)
-// 2- camp & schools Select elements are disabled
-// if(!selected country) disable camp & schools, if(selected country && !selectedCamp) schools value ='show all'
-// 3- filteredData = null
-// when select country
-//  1- set selectedCountry
-//  2- filter all data with selected country and store it in filteredDataByCountry
-//  3- set campsList = getCampList(filteredDataByCountry)
-//  4- reset  selectedCamp && selectedSchool
-//  5- set fiteredData = null
-// when select camp
-//  1- set SelectedCamp
-//  2- filteredData = filter filteredDataByCountry with selected camp
-//  3- set schoolsList = getSchoolsList(filteredData)
-//  4- reset selectedSchool
-// when select school
-//  1- set Selectedschool
-//  2- filteredData = filter filteredDataByCountry  with selected school & selected camp
-
-// if(filteredData.length>0) display filteredData on chart getChartDataSets(filteredData)

@@ -59,17 +59,6 @@ export function DataStateReducer (
         ...state,
         filteredData: action.payload
       }
-      // case UNSELLECTE_PRODUCT: {
-      //   let newState = cloneDeep(state)
-      //   newState.products.forEach((category: ProductCategory) => {
-      //     let selectedProduct = category.products.find(p => p.name == action.payload.name)
-      //     if (selectedProduct) {
-      //       selectedProduct['isSelected'] = false
-      //       return
-      //     }
-      //   })
-      //   return newState
-      // }
 
     default:
       return state
